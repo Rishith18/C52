@@ -1,0 +1,55 @@
+* {
+    font-family: American Typewriter;
+    border: solid black;
+}
+
+body {
+    background-color: #808080;
+}
+
+h1{
+    background-color: #a8a8a8;
+    padding: 30px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictures {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    text-align: center;
+}
+.header * {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.clickHere * {
+    padding: 30px;
+}
+.bodyy {
+    display: flex;
+    flex-direction: column;
+}
+a :hover {
+    color: orange;
+    font-size: 20;
+}
